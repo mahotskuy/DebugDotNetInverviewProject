@@ -14,11 +14,10 @@
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
       "environmentVariables": {
-        "RemoteForecastProvider__authenticationHeader": "incorrect_value",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "InverviewProject": {
+    "InterviewTestProject": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
