@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace InverviewProject.Services
+namespace InterviewTestProject.Services
 {
     public class WeatherForecastService : IWeathereForecaseService
     {

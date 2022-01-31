@@ -1,4 +1,4 @@
-﻿namespace InverviewProject.Services
+﻿namespace InterviewTestProject.Services
 {
     public interface ILocalsService
     {

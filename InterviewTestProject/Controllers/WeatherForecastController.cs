@@ -1,4 +1,4 @@
-﻿using InverviewProject.Services;
+﻿using InterviewTestProject.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InverviewProject.Controllers
+namespace InterviewTestProject.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace InverviewProject
+namespace InterviewTestProject
 {
     public class Program
     {

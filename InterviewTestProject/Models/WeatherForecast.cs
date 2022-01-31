@@ -1,6 +1,6 @@
 using System;
 
-namespace InverviewProject
+namespace InterviewTestProject
 {
     public class WeatherForecast
     {
