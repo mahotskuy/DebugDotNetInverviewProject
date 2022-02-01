@@ -13,11 +13,11 @@ namespace InverviewProject.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly IWeathereForecaseService _wethereForecaseService;
+        private readonly IWeatherForecastService _wethereForecaseService;
 
         public WeatherForecastController(
             ILogger<WeatherForecastController> logger,
-            IWeathereForecaseService wethereForecaseService)
+            IWeatherForecastService wethereForecaseService)
         {
             _logger = logger;
             _wethereForecaseService = wethereForecaseService;

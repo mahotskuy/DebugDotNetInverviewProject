@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InverviewProject.Services
 {
-    public class WeatherForecastService : IWeathereForecaseService
+    public class WeatherForecastService : IWeatherForecastService
     {
         private static readonly string[] Summaries = new[]
         {
@@ -45,6 +45,7 @@ namespace InverviewProject.Services
             
             var host = _configuration.GetSection("RemoteForecastProvider:host").Value;
             var password = _configuration.GetSection("RemoteForecastProvider:authenticationHeader").Value;
+            // You have to pass this line without editing code.
             if(password != "correct_password")
             {
                 throw new Exception("incorrect credentials for api");
@@ -64,7 +65,7 @@ namespace InverviewProject.Services
         }
     }
 
-    public interface IWeathereForecaseService
+    public interface IWeatherForecastService
     {
         Task<IEnumerable<WeatherForecast>> GetForcastAsync();
     }

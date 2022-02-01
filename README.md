@@ -1,5 +1,5 @@
-Main idea of this project is quickly check debugging skills of candidate related to knowlage of .Net Core API.
+The main idea of this project is quickly check candidate debugging skills related to .Net Core API.
 
-The goal for candidate is to execute Get WeatherForecast request and receive result.
-Solution contains several braking points that is visuble only on runtime execution.
-Candidate has to fix this points on the interview.
+The task for a candidate is to execute GET WeatherForecast request and receive results.
+The solution contains several breaking points that are visible only on runtime execution.
+The candidate has to fix these points in the interview.
